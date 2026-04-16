@@ -5827,6 +5827,22 @@
         "hideFromDocs": true,
         "expression": "false"
       }
+    },
+    {
+      "metadata": {
+        "name": "dashboardJourneyTracking",
+        "resourceVersion": "1776076870100",
+        "creationTimestamp": "2026-04-13T00:00:00Z",
+        "annotations": {
+          "grafana.app/updatedTimestamp": "2026-04-13 12:00:00.000000 +0000 UTC"
+        }
+      },
+      "spec": {
+        "description": "Enables Critical User Journey tracking for dashboards",
+        "stage": "experimental",
+        "codeowner": "@grafana/dashboards-squad",
+        "expression": "false"
+      }
     }
   ]
 }

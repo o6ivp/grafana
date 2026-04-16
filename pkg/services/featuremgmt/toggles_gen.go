@@ -949,4 +949,8 @@ const (
 	// FlagClickHouseConfigValidation
 	// Enables validation on the ClickHouse data source configuration page
 	FlagClickHouseConfigValidation = "clickHouseConfigValidation"
+
+	// FlagCujTracking
+	// Enables Critical User Journey (CUJ) tracking
+	FlagCujTracking = "cujTracking"
 )

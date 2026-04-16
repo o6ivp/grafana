@@ -1756,4 +1756,9 @@ export interface FeatureToggles {
   * @default false
   */
   clickHouseConfigValidation?: boolean;
+  /**
+  * Enables Critical User Journey tracking for dashboards
+  * @default false
+  */
+  cujTracking?: boolean;
 }
